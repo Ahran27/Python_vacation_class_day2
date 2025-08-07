@@ -3,7 +3,7 @@
 1. and(&&) : 연산자를 기준으로 왼쪽과 오른 쪽 값이 모두 true일 때만 ture를 반환. 하나라도 아닐시 false
 2. or(||) : 연산자를 기준을 왼쪽과 오른쪽 값 중 하나라도 ture가 있으면 true를 반환. shift + 원화표시
    ㄴ  둘 다 false라면 false를 반환
-3. not()! : 뒤에 따라오는 논리값이 true aus  false를 반환(반대로 출력됨)
+3. not()! : 뒤에 따라오는 논리값이 true aus  false를 반환(반대로 출력됨)gg
 '''
 
 num1 = 10
