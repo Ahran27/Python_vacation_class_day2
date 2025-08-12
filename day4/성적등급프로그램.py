@@ -7,4 +7,12 @@
 
 score = int(input("당신의 점수를 입력하시오: "))
 if score >= 90:
-    print("당신은 A학점입니다.")
+    print("당신은 A학점입니다.") # 들여쓰기/내어쓰기로 구분을 하기 때문에 주의할 것
+elif score >= 80:
+    print("당신은 B학점입니다.")
+elif score >= 70:
+    print("당신은 C학점입니다.")
+elif score >= 60:
+    print("당신은 D학점입니다.")
+else:
+    print("당신은 F학점으로 재시험 대상입니다.")
