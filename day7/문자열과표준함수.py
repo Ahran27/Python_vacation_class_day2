@@ -8,6 +8,7 @@ print(text[-1]) # 뒤에서부터
 
 
 """
+책에는 없는 내용임
 ❕❕❕대소문자 변환
 upper(): 대문자로 변환
 lower(): 소문자로 변환
@@ -48,3 +49,25 @@ print(banana.count("a"))  # a의 갯수를 찾아줘
 
 replace_text = "I like dog"
 print(replace_text.replace("like","love"))  # 안에는 바꿀 값을 넣고 뒤에는 바꿀 내용
+
+split_text = "apple, banana, grape"
+print(split_text.split(","))  #,를 기준으로 나누기
+
+words = ['apple, dog, cat']
+print(", ".join(words))
+
+startswith_text = "start swith"
+print(startswith_text.startswith("swith"))
+print(startswith_text.startswith("start"))#괄호 안의 것으로 시직하는ㄱ[ 참인지 거짓인지
+
+print(startswith_text.endswith("swith"))
+print(startswith_text.endswith("start"))
+
+isdigit_text = "12345asd"
+print(isdigit_text.isdigit())
+
+isalpha_text = "Python"
+print(isalpha_text.isalpha())
+
+len_text = "ahran"
+print(len(len_text))
