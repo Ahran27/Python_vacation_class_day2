@@ -49,5 +49,26 @@ my_dict = {
     "age" : 18,
     "city" : "New York"
 }
-keys = my_dict.keys()
+keys = my_dict.keys()#리스트는 아니지만 리스트 처럼 보임
 print(keys)
+
+values = list(my_dict.keys())
+print(values)
+
+values = list(my_dict.values())
+print(values)
+
+items = my_dict.items()
+print(items)
+
+items = list(my_dict.items())
+print(items)
+
+my_dict.update({"age":21, "hobby":"swimming"})#딕셔너리 추가하기
+print(my_dict)
+#update: 키가 있다면 값을 변경 / 키가 없다면 추가
+
+print(sorted(my_dict))
+print(sorted(my_dict.items()))
+
+print(sorted(my_dict, reverse=True))#내림차순 출력
